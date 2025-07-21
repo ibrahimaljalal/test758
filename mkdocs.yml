@@ -1,0 +1,29 @@
+site_name: My Docs
+
+
+
+theme:
+  name: material
+  custom_dir: overrides
+  language: ar
+  favicon: assets/favicon.png
+  logo: assets/favicon.png
+
+
+
+
+
+extra_css:
+  - overrides/extra.css
+
+
+
+
+
+
+  
+
+
+
+
+
