@@ -1,6 +1,18 @@
-site_name: My Docs
+site_name: مركز التدريب في قسم هندسة الطيران والفضاء - KFUPM
 
 
+
+nav:
+  - لل: index.md
+  - rr2: test1.md
+
+
+
+
+
+repo_url: https://github.com/ibrahimaljalal/test758
+repo_name: ibrahimaljalal/test758
+edit_uri: edit/main/docs/
 
 theme:
   name: material
@@ -8,18 +20,32 @@ theme:
   language: ar
   favicon: assets/favicon.png
   logo: assets/favicon.png
+  features:
+    - content.action.edit
+    - content.action.view
+    - navigation.footer
+  icon:
+    edit: material/pencil 
+    view: material/eye
+
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/instagram
+      link: https://fosstodon.org/@squidfunk
+      name: squidfunk on Fosstodon
+
+# plugins:
+#   - git-revision-date-localized:
+#       enable_creation_date: true
 
 
 
 
 
-extra_css:
-  - overrides/extra.css
 
-
-
-
-
+  
 
   
 
